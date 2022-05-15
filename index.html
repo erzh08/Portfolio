@@ -4,6 +4,7 @@
 		<title>Portfolio</title>
 		<link rel="icon" href="media/shimarin_rust.png">
 		<link rel="stylesheet" href="css/anime.css" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<script src="script/anime.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</head>
@@ -15,23 +16,92 @@
 
 		<div id="shadow"></div>
 
+		<!-- Info - Start -->
+		<div class="box" id="about">
+			<div id="about-full">
+				<h2>About Me</h2>
+				<p>
+				I'm a student at Fatec SO.
+				</p>
+				<p>
+				I like using, studying and supporting Free Software, so I use
+				GNU/Linux <img src="media/linux.png" title="Linux"> as my main OS,
+				and am currently testing OpenBSD <img src="media/openbsd.png" title="OpenBSD">
+				and FreeBSD <img src="media/freebsd.png" title="FreeBSD">.
+				</p>
+				<p>
+				My current setup consists of Arch Linux <img src="media/arch.png" title="Arch Linux"> as my OS,
+				Neovim <img src="media/nvim.png" title="Neovim"> as my text editor, i3 <img src="media/i3.png" title="i3wm">
+				as my Window Manager, and Bash <img src="media/bash.png" title="GNU Bash"> as my shell.
+				</p>
+				<p>
+				I'm currently studying japanese and am a Weeb (as you can see by the images
+				on this website).
+				</p>
+			</div>
+		</div>
+
+		<div class="box" id="skills">
+			<div id="skills-full">
+				<h2>What I know</h2>
+				<div class="lang" id="good">
+					<h4>Kinda good at</h4>
+						<p><img src="media/c.png" title="C Language">  <img src="media/cs.png" title="C#">  <img src="media/javascript.png" title="JavaScript"></p>
+				</div>
+
+				<div class="lang" id="medium">
+					<h4>Still figuring out</h4>
+						<p><img src="media/c.png" title="C Language">  <img src="media/bash.png" title="GNU Bash"></p>
+				</div>
+
+				<div class="lang" id="starting">
+					<h4>Starting out</h4>
+						<p><img src="media/rust.png" title="Rust">  <img src="media/go.png" title="Go"></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="box" id="projects">
+			<div id="projects-full">
+				<h2>My (few) projects</h2>
+				<ul>
+					<li><img src="media/html5.png"><img src="media/css3.png"><img src="media/javascript.png"> <strong>Min Start</strong>: A minimalist start page for graphical browsers,
+					with my most accessed websites</li><br/>
+					<li><img src="media/c.png"> <strong>Spells 'n' Curses</strong>: A simple rogue-like game, written using ncurses.</li><br/>
+				</ul>
+			</div>
+		</div>
+
+		<div class="box" id="contact">
+			<div id="contact-full">
+				<h2>Basic contact information</h2>
+				<ul>
+					<li><img src="media/mastodon.png"> <strong>Mastodon</strong>: @erzh08@social.linux.pizza</li><br/>
+					<li><img src="media/matrix.png"> <strong>Matrix</strong>: @mohammed_abbir:matrix.org</li><br/>
+					<li><img src="media/disroot.png"> <strong>E-mail</strong>: erzh08@disroot.org</li><br/>
+					<li><img src="media/gitlab.png"> <strong>Gitlab</strong>: erzh08</li><br/>
+				</ul>
+			</div>
+		</div>
+		<!-- Info - End -->
+
 		<nav>
-			<button id="contact-nav">
-				<img src="media/poyayan_inaba.png">
+			<button class="nav-btn" id="contact-nav">
+				<img src="media/reading_nene.png">
 				Contact
 			</button>
 
-			<button id="projects-nav">
-				<img src="media/poyayan_inaba.png">
+			<button class="nav-btn" id="projects-nav">
+				<img src="media/poyayan_inaba_1.png">
 				Projects
 			</button>
 
-			<button id="skills-nav">
+			<button class="nav-btn" id="skills-nav">
 				<img src="media/shimarin_rust.png">
 				Skills
 			</button>
 
-			<button id="about-nav">
+			<button class="nav-btn" id="about-nav">
 				<img src="media/poyayan_inaba.png">
 				About Me
 			</button>
@@ -43,63 +113,8 @@
 				プレゼントデイ
 			</div>
 
-			<div id="boxes">
-				<div class="box" id="about">
-					<h3 class="text">About me</h3>
-					<div id="about-full">
-						<h2>About Me</h2>
-						<p>
-						I'm a student at Fatec SO.
-						I like using, studying and supporting Free Software, so I use
-						GNU/Linux as my main OS, and am currently testing OpenBSD and FreeBSD.
-						</p>
-						<p>
-						I'm currently studying japanese and am a Weeb (as you can see by the images
-						on this website).
-						</p>
-					</div>
-				</div>
-
-				<div class="box" id="experience">
-					<h3 class="text">Skills</h3>
-					<div id="experience-full">
-						<h2>What I know</h2>
-						<div class="lang">
-							<h4>Kinda good at</h4>
-								<p>C, C#, JavaScript</p>
-						</div>
-
-						<div class="lang">
-							<h4>Still figuring out</h4>
-								<p>Assembly, Bash</p>
-						</div>
-
-						<div class="lang">
-							<h4>Starting out</h4>
-								<p>Rust, Go</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="box" id="projects">
-					<h3 class="text">My Projects</h3>
-					<div id="projects-full">
-						<ul>
-							<li><strong></strong>:</li>
-							<li><strong></strong>:</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="box" id="contact">
-					<h3 class="text">Contact Info</h3>
-					<div id="contact-full">
-						<ul>
-							<li><strong></strong>:</li>
-							<li><strong></strong>:</li>
-						</ul>
-					</div>
-				</div>
+			<div id="name-box">
+				<h1>Raul Alexandre</h1>
 			</div>
 		</main>
 	</body>
