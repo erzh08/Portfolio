@@ -64,7 +64,7 @@ h1 {
 h2 {
 	text-align: center;
 	text-shadow: 5px 2px #000;
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 }
 ul {
 	font-size: 25px;
@@ -97,8 +97,22 @@ ul {
 	align-items: center;
 	gap: 2em;
 }
+.box a {
+	transition: 0.3s;
+}
+.box a:link, .box a:visited {
+	color: white;
+}
+.box a:hover {
+	color: palegreen;
+	cursor: crosshair;
+}
+.box a:active {
+	color: #6050dc;
+}
 .box img {
 	max-height: 20px;
+	cursor: help;
 }
 .lang {
 	display: flex;
@@ -152,7 +166,7 @@ ul {
 }
 #about {
 	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/tsumugi_shiiba_1.jpg');
-	font-size: 18px;
+	font-size: 22px;
 	background-position: center;
 }
 #skills {
