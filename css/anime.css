@@ -59,7 +59,8 @@ main {
 h1 {
 	height: 100%;
 	font-family: 'Fredoka One';
-	font-size: 150px;
+	font-size: 130px;
+	text-align: center;
 }
 h2 {
 	text-align: center;
@@ -119,7 +120,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 	border: black 1px solid;
-	border-radius: 5px;
+	border-radius: 8px;
 	width: 80%;
 	min-height: 20%;
 
@@ -148,9 +149,12 @@ ul {
 	padding: 1.5em;
 
 	min-height: 400px;
-	margin: 8em 0 0 0;
+	margin: 7em 0 0 0;
 	height: 60%;
 	width: 90%;
+}
+#name-box img {
+	max-height: 500px;
 }
 #good {
 	background-image: linear-gradient(45deg, rgba(32, 191, 85, 0.8), rgba(1, 186, 239, 0.7));
@@ -197,7 +201,7 @@ nav button:hover > img {
 }
 #medium.lang:hover {
 	min-height: 30%;
-	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/aharen_reina_kr.png');
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/shamiko_speaking_javascript.png');
 	background-position: center;
 	background-size: 500px;
 }
