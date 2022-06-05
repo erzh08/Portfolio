@@ -146,15 +146,18 @@ ul {
 
 	background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.6));
 	border-radius: 10px;
-	padding: 1.5em;
+	padding: 1em;
 
-	min-height: 400px;
-	margin: 7em 0 0 0;
-	height: 60%;
-	width: 90%;
+	min-height: 300px;
+	margin: 14em 0 0 0;
+	height: 40%;
+	width: 70%;
 }
 #name-box img {
-	max-height: 500px;
+	position: absolute;
+	top: 30px;
+	left: 170px;
+	max-height: 220px;
 }
 #good {
 	background-image: linear-gradient(45deg, rgba(32, 191, 85, 0.8), rgba(1, 186, 239, 0.7));
@@ -182,7 +185,7 @@ ul {
 	background-position: center;
 }
 #contact {
-	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/tsumugi_shiiba_1.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../media/inaba_meguru_4.jpg');
 	background-position: center;
 }
 
@@ -217,6 +220,3 @@ nav button:hover > img {
 .lang:hover h4 {
 	display: none;
 }
-
-/* Classes applied with JS */
-
