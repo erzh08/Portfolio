@@ -1,6 +1,7 @@
 {
 	"lang": "<img src=\"media/en.png\">",
 	"about": {
+		"nav": "<img src=\"media/poyayan_inaba.png\"> About Me",
 		"title": "About Me",
 		"p1": "I'm a student at Fatec SO.",
 		"p2": "I like using, studying and supporting Free Software, so I use GNU/Linux <img src=\"media/linux.png\" title=\"Linux\"> as my main OS, and am currently testing OpenBSD <img src=\"media/openbsd.png\" title=\"OpenBSD\"> and FreeBSD <img src=\"media/freebsd.png\" title=\"FreeBSD\">.",
@@ -8,17 +9,20 @@
 		"p4": "I'm currently studying japanese and am a Weeb (as you can see by the images on this website)."
 	},
 	"skills": {
+		"nav": "<img src=\"media/shimarin_rust.png\"> Skills",
 		"title": "What I know",
 		"good": "Kinda good at",
 		"medium": "Still figuring out",
 		"starting": "Starting out"
 	},
 	"proj": {
+		"nav": "<img src=\"media/poyayan_inaba_1.png\"> Projects",
 		"title": "My (few) projects",
 		"min": "<img src=\"media/html5.png\"><img src=\"media/css3.png\"><img src=\"media/javascript.png\"> <a href=\"https://erzh08.github.io/min_start/\"><strong>Min Start</strong></a>: A minimalist start page for graphical browsers, with my most accessed websites",
 		"spells": "<img src=\"media/c.png\"> <a href=\"https://github.com/erzh08/spells_n_curses\"><strong>Spells 'n' Curses</strong></a>: A simple rogue-like game, written using ncurses."
 	},
 	"contact": {
+		"nav": "<img src=\"media/reading_nene.png\"> Contact",
 		"title": "Basic contact information"
 	}
 }
