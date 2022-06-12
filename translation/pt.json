@@ -1,0 +1,24 @@
+{
+	"lang": "<img src=\"media/pt.png\">",
+	"about": {
+		"title": "Sobre Mim",
+		"p1": "Sou um aluno na Fatec Sorocaba.",
+		"p2": "Gosto de usar, estudar e ajudar Software Livre, por isso GNU/Linux <img src=\"media/linux.png\" title=\"Linux\"> como meu SO principal, e atualmente estou testando OpenBSD <img src=\"media/openbsd.png\" title=\"OpenBSD\"> e FreeBSD <img src=\"media/freebsd.png\" title=\"FreeBSD\">.",
+		"p3": "Meu setup atual consiste de Arch Linux <img src=\"media/arch.png\" title=\"Arch Linux\"> como meu sistema, Neovim <img src=\"media/nvim.png\" title=\"Neovim\"> como meu editor de texto, i3 <img src=\"media/i3.png\" title=\"i3wm\"> como Window Manager, St <img src=\"media/scklss.png\" title=\"Scklss\"> como emulador de terminal e Bash <img src=\"media/bash.png\" title=\"GNU Bash\"> como shell.<br/> Além disso, uso o Brave <img src=\"media/le_shill_lion.png\" title=\"Brave\"/> como navegador principal.",
+		"p4": "Estou estudando japonês e tenho interesse em animes (otaku se preferir) (como é possível ver pelas imagens nesse website)."
+	},
+	"skills": {
+		"title": "O que eu sei",
+		"good": "Mais ou menos bom",
+		"medium": "Ainda aprendendo",
+		"starting": "Começando a estudar"
+	},
+	"proj": {
+		"title": "Meus (poucos) projetos",
+		"min": "<img src=\"media/html5.png\"><img src=\"media/css3.png\"><img src=\"media/javascript.png\"> <a href=\"https://erzh08.github.io/min_start/\"><strong>Min Start</strong></a>: Uma página inicial minimalista para navegadores gráficos, com meus websites mais acessados",
+		"spells": "<img src=\"media/c.png\"> <a href=\"https://github.com/erzh08/spells_n_curses\"><strong>Spells 'n' Curses</strong></a>: Um jogo rogue-like simples, escrito usando ncurses."
+	},
+	"contact": {
+		"title": "Informação de contato básica"
+	}
+}

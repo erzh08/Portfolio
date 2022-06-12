@@ -1,0 +1,24 @@
+{
+	"lang": "<img src=\"media/en.png\">",
+	"about": {
+		"title": "About Me",
+		"p1": "I'm a student at Fatec SO.",
+		"p2": "I like using, studying and supporting Free Software, so I use GNU/Linux <img src=\"media/linux.png\" title=\"Linux\"> as my main OS, and am currently testing OpenBSD <img src=\"media/openbsd.png\" title=\"OpenBSD\"> and FreeBSD <img src=\"media/freebsd.png\" title=\"FreeBSD\">.",
+		"p3": "My current setup consists of Arch Linux <img src=\"media/arch.png\" title=\"Arch Linux\"> as my OS, Neovim <img src=\"media/nvim.png\" title=\"Neovim\"> as my text editor, i3 <img src=\"media/i3.png\" title=\"i3wm\"> as my Window Manager, St <img src=\"media/scklss.png\" title=\"Scklss\"> as my terminal emulator and Bash <img src=\"media/bash.png\" title=\"GNU Bash\"> as my shell.<br/> Additionally, I use Brave <img src=\"media/le_shill_lion.png\" title=\"Brave (aka Le Shill Lion)\"/> as my main web browser.",
+		"p4": "I'm currently studying japanese and am a Weeb (as you can see by the images on this website)."
+	},
+	"skills": {
+		"title": "What I know",
+		"good": "Kinda good at",
+		"medium": "Still figuring out",
+		"starting": "Starting out"
+	},
+	"proj": {
+		"title": "My (few) projects",
+		"min": "<img src=\"media/html5.png\"><img src=\"media/css3.png\"><img src=\"media/javascript.png\"> <a href=\"https://erzh08.github.io/min_start/\"><strong>Min Start</strong></a>: A minimalist start page for graphical browsers, with my most accessed websites",
+		"spells": "<img src=\"media/c.png\"> <a href=\"https://github.com/erzh08/spells_n_curses\"><strong>Spells 'n' Curses</strong></a>: A simple rogue-like game, written using ncurses."
+	},
+	"contact": {
+		"title": "Basic contact information"
+	}
+}

@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link rel="icon" href="media/shimarin_rust.png">
 		<link rel="stylesheet" href="css/anime.css" >
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<script src="script/anime.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</head>
 
@@ -20,24 +20,24 @@
 		<!-- Info - Start -->
 		<div class="box" id="about">
 			<div id="about-full">
-				<h2>About Me</h2>
-				<p>
+				<h2 data="about.title">About Me</h2>
+				<p data="about.p1">
 				I'm a student at Fatec SO.
 				</p>
-				<p>
+				<p data="about.p2">
 				I like using, studying and supporting Free Software, so I use
 				GNU/Linux <img src="media/linux.png" title="Linux"> as my main OS,
 				and am currently testing OpenBSD <img src="media/openbsd.png" title="OpenBSD">
 				and FreeBSD <img src="media/freebsd.png" title="FreeBSD">.
 				</p>
-				<p>
+				<p data="about.p3">
 				My current setup consists of Arch Linux <img src="media/arch.png" title="Arch Linux"> as my OS,
 				Neovim <img src="media/nvim.png" title="Neovim"> as my text editor, i3 <img src="media/i3.png" title="i3wm">
 				as my Window Manager, St <img src="media/scklss.png" title="Scklss"> as my terminal emulator and Bash <img src="media/bash.png" title="GNU Bash"> as my shell.<br/>
 				Additionally, I use Brave <img src="media/le_shill_lion.png" title="Brave (aka Le Shill Lion)"/>
-				as my main web browser,
+				as my main web browser.
 				</p>
-				<p>
+				<p data="about.p4">
 				I'm currently studying japanese and am a Weeb (as you can see by the images
 				on this website).
 				</p>
@@ -46,19 +46,19 @@
 
 		<div class="box" id="skills">
 			<div id="skills-full">
-				<h2>What I know</h2>
+				<h2 data="skills.title">What I know</h2>
 				<div class="lang" id="good">
-					<h4>Kinda good at</h4>
+					<h4 data="skills.good">Kinda good at</h4>
 						<p><img src="media/c.png" title="C Language">  <img src="media/cs.png" title="C#">  <img src="media/javascript.png" title="JavaScript"></p>
 				</div>
 
 				<div class="lang" id="medium">
-					<h4>Still figuring out</h4>
+					<h4 data="skills.medium">Still figuring out</h4>
 						<p><img src="media/nasm.png" title="Assembly">  <img src="media/bash.png" title="GNU Bash"></p>
 				</div>
 
 				<div class="lang" id="starting">
-					<h4>Starting out</h4>
+					<h4 data="skills.starting">Starting out</h4>
 						<p><img src="media/rust.png" title="Rust">  <img src="media/go.png" title="Go"></p>
 				</div>
 			</div>
@@ -66,18 +66,18 @@
 
 		<div class="box" id="projects">
 			<div id="projects-full">
-				<h2>My (few) projects</h2>
+				<h2 data="proj.title">My (few) projects</h2>
 				<ul>
-					<li><img src="media/html5.png"><img src="media/css3.png"><img src="media/javascript.png"> <a href="https://erzh08.github.io/min_start/"><strong>Min Start</strong></a>: A minimalist start page for graphical browsers,
+					<li data="proj.min"><img src="media/html5.png"><img src="media/css3.png"><img src="media/javascript.png"> <a href="https://erzh08.github.io/min_start/"><strong>Min Start</strong></a>: A minimalist start page for graphical browsers,
 					with my most accessed websites</li><br/>
-				<li><img src="media/c.png"> <a href="https://github.com/erzh08/spells_n_curses"><strong>Spells 'n' Curses</strong></a>: A simple rogue-like game, written using ncurses.</li><br/>
+				<li data="proj.spells"><img src="media/c.png"> <a href="https://github.com/erzh08/spells_n_curses"><strong>Spells 'n' Curses</strong></a>: A simple rogue-like game, written using ncurses.</li><br/>
 				</ul>
 			</div>
 		</div>
 
 		<div class="box" id="contact">
 			<div id="contact-full">
-				<h2>Basic contact information</h2>
+				<h2 data="contact.title">Basic contact information</h2>
 				<ul>
 					<li><img src="media/mastodon.png" title="Mastodon"> <strong>Mastodon</strong>: <a rel="me" href="https://social.linux.pizza/@erzh08">@erzh08@social.linux.pizza</a></li><br/>
 					<li><img src="media/matrix.png" title="Matrix.org"> <strong>Matrix</strong>: <a href="https://matrix.to/#/@mohammed_abbir:matrix.org">@mohammed_abbir:matrix.org</a></li><br/>
@@ -89,6 +89,10 @@
 		<!-- Info - End -->
 
 		<nav>
+			<button data="lang" id="lang-nav" onclick="change_lang()">
+				<img src="media/en.png">
+			</button>
+
 			<button class="nav-btn" id="contact-nav">
 				<img src="media/reading_nene.png">
 				Contact
@@ -115,5 +119,6 @@
 				<h1>Raul Alexandre</h1>
 			</div>
 		</main>
+		<script src="script/lang.js"></script>
 	</body>
 </html>
