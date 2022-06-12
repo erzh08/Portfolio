@@ -8,7 +8,7 @@ function change_lang() {
 	} else {
 		lang = "en";
 	}
-	fetch(`/translation/${lang}.json`)
+	fetch(`./translation/${lang}.json`)
 		.then((res) => res.json())
 		.then((translation) => {
 			elements.forEach((element) => {
